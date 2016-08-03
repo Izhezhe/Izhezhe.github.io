@@ -1,0 +1,82 @@
+.three{
+  &{
+    width:100%;
+    height:auto;
+    background:#3C4755;
+    background-size:cover;
+    padding-top:120px;
+    padding-bottom:60px;
+  }
+  .cont-three{
+    &{
+      height:224px;
+      margin:50px auto 0px;
+      padding-left:20px;
+      padding-right:20px;
+    }
+    a{
+      display:block;
+      width:100%;
+      height:100%;
+      position:relative;
+    }
+    .three-item{
+      width:100%;
+      height:100%;
+      border:2px solid #FC6225;
+      color: #3d3d3d;
+      transition:all 0.4s linear;
+      transform-origin:left top;
+
+    }
+    .bnt-logo{
+       position:absolute;
+       top:0;
+       left:0;
+       display:block;
+       width:100%;
+       height:100%;
+       line-height:224px;
+       text-align:center;
+       font-size:100px;
+       transform-origin:center center;
+       transition:all 0.4s linear;
+     }
+    .three-mask{
+      width:100%;
+      height:0;
+      background-color:#FC6225;
+      opacity:0.7;
+      position:absolute;
+      top:0;
+      left:0;
+      font-size:36px;
+      line-height:224px;
+      text-align:center;
+      transition:height 1s linear;
+      .th-tit{
+        font-size:35px;
+        display:none;
+        transition:all 0.2s linear 1.5s;
+      }
+    }
+  }
+  .cont-three:hover{
+    .three-mask{
+      height:100%;
+    }
+    .three-item{
+      border:transparent;
+      transform:rotate(45deg);
+
+    }
+    .bnt-logo{
+       transform:rotate(45deg);
+      opacity:0.4;
+     }
+    .th-tit{
+      display:inline-block;
+    }
+  }
+
+}
