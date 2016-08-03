@@ -2,70 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d73ea74-14bf-42ee-aea6-c9a7c281e344" name="默认的" comment="">
-      <change type="DELETED" beforePath="F:\GitStore\izhezhe.github.io\README.md" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitStore\izhezhe.github.io\css\base.css" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitStore\izhezhe.github.io\css\grjj.css" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitStore\izhezhe.github.io\css\main.css" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitStore\izhezhe.github.io\css\response.css" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitStore\izhezhe.github.io\css\swiper.css" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitStore\izhezhe.github.io\css\top-ban.css" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitStore\izhezhe.github.io\css\top.css" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitStore\izhezhe.github.io\css\xyy-two.css" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitStore\izhezhe.github.io\css\zpz-three.css" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitStore\izhezhe.github.io\font\demo.css" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitStore\izhezhe.github.io\font\demo.html" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitStore\izhezhe.github.io\font\iconfont.css" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitStore\izhezhe.github.io\font\iconfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitStore\izhezhe.github.io\font\iconfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitStore\izhezhe.github.io\font\iconfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitStore\izhezhe.github.io\font\iconfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitStore\izhezhe.github.io\img\09.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitStore\izhezhe.github.io\img\20140801446ZNT6460.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitStore\izhezhe.github.io\img\20150422_223105_274.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitStore\izhezhe.github.io\img\20150630162944_vy456ukvwy.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitStore\izhezhe.github.io\img\2015718151247.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitStore\izhezhe.github.io\img\54.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitStore\izhezhe.github.io\img\5678.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitStore\izhezhe.github.io\img\9-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitStore\izhezhe.github.io\img\9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitStore\izhezhe.github.io\img\achivements-bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitStore\izhezhe.github.io\img\banner1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitStore\izhezhe.github.io\img\banner11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitStore\izhezhe.github.io\img\bg1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitStore\izhezhe.github.io\img\bg11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitStore\izhezhe.github.io\img\bg121.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitStore\izhezhe.github.io\img\che.gif" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitStore\izhezhe.github.io\img\che1.gif" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitStore\izhezhe.github.io\img\che2.gif" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitStore\izhezhe.github.io\img\contact-bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitStore\izhezhe.github.io\img\erweima.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitStore\izhezhe.github.io\img\index.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitStore\izhezhe.github.io\img\music.mp3" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitStore\izhezhe.github.io\img\music.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitStore\izhezhe.github.io\img\music1.mp3" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitStore\izhezhe.github.io\img\qq.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitStore\izhezhe.github.io\img\u=2824684574,1083779423&amp;fm=21&amp;gp=0.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitStore\izhezhe.github.io\img\work1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitStore\izhezhe.github.io\img\work2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitStore\izhezhe.github.io\img\work3.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitStore\izhezhe.github.io\img\work4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitStore\izhezhe.github.io\img\work5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitStore\izhezhe.github.io\img\work6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitStore\izhezhe.github.io\img\work7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitStore\izhezhe.github.io\img\work8.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitStore\izhezhe.github.io\img\xl.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitStore\izhezhe.github.io\index.html" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitStore\izhezhe.github.io\js\index.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitStore\izhezhe.github.io\js\jquery.hover3d.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitStore\izhezhe.github.io\js\jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitStore\izhezhe.github.io\js\jquerytransition.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitStore\izhezhe.github.io\js\sketch.min.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitStore\izhezhe.github.io\js\swiper.jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitStore\izhezhe.github.io\less\main.less" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitStore\izhezhe.github.io\less\response.less" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitStore\izhezhe.github.io\less\top-ban.less" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitStore\izhezhe.github.io\less\xyy-two.less" afterPath="" />
-      <change type="DELETED" beforePath="F:\GitStore\izhezhe.github.io\less\zpz-three.less" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="izhezhe.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -85,7 +23,51 @@
     <favorites_list name="izhezhe.github.io" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://F:/前端/资料/jquery特效/Metro风兼瀑布流布局效果/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.862069">
+              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lanrenzhijia.js" pinned="false" current-in-tab="true">
+        <entry file="file://F:/前端/资料/jquery特效/Metro风兼瀑布流布局效果/js/lanrenzhijia.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.427027">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lanrenzhijia2.js" pinned="false" current-in-tab="false">
+        <entry file="file://F:/前端/资料/jquery特效/Metro风兼瀑布流布局效果/js/lanrenzhijia2.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+              <folding>
+                <marker date="1355488379548" expanded="true" signature="1992:2004" placeholder="..." />
+                <marker date="1355488379548" expanded="true" signature="2246:2258" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lanrenzhijia.css" pinned="false" current-in-tab="false">
+        <entry file="file://F:/前端/资料/jquery特效/Metro风兼瀑布流布局效果/css/lanrenzhijia.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -150,6 +132,16 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="izhezhe.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="izhezhe.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -209,10 +201,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1421092" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1421092" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -239,30 +231,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-47.03448">
-          <caret line="395" column="13" selection-start-line="395" selection-start-column="13" selection-end-line="395" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/font/demo.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/base.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -271,9 +239,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/grjj.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.54594594">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="-7.135135">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -281,8 +257,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/response.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-3.6864865">
+          <caret line="261" column="23" selection-start-line="261" selection-start-column="23" selection-end-line="261" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -311,7 +287,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/xyy-two.css">
+    <entry file="file://$PROJECT_DIR$/less/response.less">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -319,7 +295,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/zpz-three.css">
+    <entry file="file://$PROJECT_DIR$/less/main.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/top-ban.less">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -327,9 +311,102 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/grjj.css">
+    <entry file="file://$PROJECT_DIR$/less/xyy-two.less">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/03 H5C3、移动Web前端/12 06 bootstrop/code/wjs/less/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/03 H5C3、移动Web前端/12 06 bootstrop/code/wjs/less/less.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/zpz-three.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.551724">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/font/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.8973384">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/font/demo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.37931">
+          <caret line="492" column="52" selection-start-line="497" selection-start-column="41" selection-end-line="497" selection-end-column="75" />
+          <folding>
+            <element signature="n#style#0;n#i#0;n#p#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/前端/资料/jquery特效/Metro风兼瀑布流布局效果/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.862069">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/前端/资料/jquery特效/Metro风兼瀑布流布局效果/js/lanrenzhijia2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding>
+            <marker date="1355488379548" expanded="true" signature="1992:2004" placeholder="..." />
+            <marker date="1355488379548" expanded="true" signature="2246:2258" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/前端/资料/jquery特效/Metro风兼瀑布流布局效果/css/lanrenzhijia.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/前端/资料/jquery特效/Metro风兼瀑布流布局效果/js/lanrenzhijia.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.427027">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>

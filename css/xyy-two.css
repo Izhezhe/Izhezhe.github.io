@@ -1,0 +1,116 @@
+.gallery-two {
+  width: 100%;
+  height: 100%;
+}
+.gallery-two .two-heder {
+  width: 100%;
+  height: 30%;
+}
+.gallery-two .two-heder span {
+  display: block;
+  width: 100%;
+  line-height: 45px;
+  font-size: 40px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 30px;
+  color: #FC550F;
+  transform: translateX(-10px);
+}
+.gallery-two .two-heder hr {
+  width: 10%;
+  height: 4px;
+  background: #FC550F;
+  display: block;
+  margin: 0 auto;
+  border: none;
+}
+.gallery-two .two-heder p {
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+  color: #545454;
+  padding: 10px;
+  line-height: 30px;
+}
+.gallery-two .title-two {
+  width: 100%;
+  height: 100%;
+}
+.gallery-two .two-items {
+  width: 100%;
+  height: 70%;
+}
+.gallery-two .two-items .two-items-ss {
+  height: 100%;
+  padding: 70px 20px;
+}
+.gallery-two .two-items .two-items-ss:hover .two-items-11 {
+  display: none;
+}
+.gallery-two .two-items .two-items-ss:hover .two-item-12 {
+  display: block;
+}
+.gallery-two .two-items .two-items-one {
+  display: block;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  position: relative;
+}
+.gallery-two .two-items .two-items-one .two-items-11 {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  position: absolute;
+  border: 1px solid #FC550F;
+  top: 0;
+}
+.gallery-two .two-items .two-items-one .two-items-11 span {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 120px;
+  display: block;
+  width: 100%;
+  height: 130px;
+  line-height: 130px;
+  color: #FC550F;
+}
+.gallery-two .two-items .two-items-one .two-item-12 {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background-color: #FC550F;
+  transition: all 0.25s linear;
+}
+.gallery-two .two-items .two-items-one .two-item-12 h3 {
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+  line-height: 60px;
+  margin-top: 20px;
+}
+.gallery-two .two-items .two-items-one .two-item-12 p {
+  margin-top: 10px;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  font-size: 24px;
+  color: #fff;
+}
+@media screen and (max-width: 600px) {
+  .gallery-two .two-heder span {
+    font-size: 36px;
+  }
+  .gallery-two .two-heder hr {
+    height: 3px;
+  }
+  .gallery-two .two-heder p {
+    font-size: 16px;
+  }
+}
