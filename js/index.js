@@ -92,7 +92,7 @@ $(function(){
     Tabs.init();
 });
 /*个人简介小图标点击事件*/
-$(function(){
+/*$(function(){
     var lis=$(".social>li");
         lis.hover(function()
         {
@@ -100,7 +100,7 @@ $(function(){
         },function(){
             $(this).removeClass("active");
         })
-});
+});*/
 /*楼层跳转*/
 
 $(function(){

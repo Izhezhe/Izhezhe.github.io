@@ -74,7 +74,7 @@ a {
   margin-top: 30px;
 }
 .about .social li {
-  display: inline-block;
+  margin-bottom: 5px;
   text-align: center;
   width: 40px;
   height: 40px;
@@ -86,7 +86,7 @@ a {
   box-sizing: border-box;
 }
 .about .social .itt1 {
-  font-size: 16px;
+  font-size: 20px;
   color: #fff;
 }
 .about .social .ab-m {
@@ -94,15 +94,12 @@ a {
   z-index: 3;
   right: -154px;
   top: -2px;
-  width: 0;
+  width: 150px;
   line-height: 40px;
   height: auto;
-  background: #516073;
-  border: 1px solid #f0f0f0;
-  border-radius: 5px;
   text-align: left;
-  padding-left: 0;
-  display: none;
+  padding-left: 10px;
+  display: block;
 }
 .about .social .active .ab-m {
   width: 150px;
