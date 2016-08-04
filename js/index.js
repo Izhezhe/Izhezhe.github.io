@@ -102,7 +102,7 @@ $(function(){
         })
 });*/
 /*楼层跳转*/
-
+/*
 $(function(){
     var ch = document.documentElement.clientHeight;
     var floor = $(".floor-lc");
@@ -155,7 +155,7 @@ $(function(){
     
     
     
-});
+});*/
 /*音乐图标点击事件*/
 $(function(){
     var musicbtn=$(".website-audio");
