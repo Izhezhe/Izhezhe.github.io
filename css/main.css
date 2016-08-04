@@ -45,7 +45,7 @@ a {
   float: right;
 }
 .about {
-  margin-top: 120px;
+  padding-top: 120px;
   padding-bottom: 70px;
 }
 .about .page-heading {
