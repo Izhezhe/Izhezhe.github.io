@@ -1,7 +1,0 @@
-{{~it.data :value:index }}
-{{? value.isToday==1}}
-<option value="{{= value.textDate}}" selected="selected">{{= value.textDate}}</option>
-{{??}}
-<option value="{{= value.textDate}}">{{= value.textDate}}</option>
-{{?}}
-{{~}}

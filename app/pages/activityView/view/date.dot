@@ -1,8 +1,0 @@
-<option value="" selected="selected">请选择查询日期</option>
-{{~it.data :value:index }}
-{{? value.isToday==1}}
-<option value="{{= value.textDate}}">{{= value.textDate}}</option>
-{{??}}
-<option value="{{= value.textDate}}">{{= value.textDate}}</option>
-{{?}}
-{{~}}
