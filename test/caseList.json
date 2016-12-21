@@ -1,0 +1,129 @@
+{
+    "code": 1,
+    "data": {
+        "activityList": [
+            {
+                "caseId":1,
+                "avgScore": 77725,
+                "raterList": [
+                    {
+                        "name": "1"
+                    }
+                ],
+                "releaseTime": "测试内容e667",
+                "wsCase": {
+                    "beginTime": "测试内容862b",
+                    "caseNo": "测试内容iotm",
+                    "courtName": "测试内容c076",
+                    "liveState": 0,
+                    "title": "1"
+                }
+            },
+            {
+                 "caseId":2,
+                "avgScore": 77725,
+                "raterList": [
+                    {
+                        "name": "2"
+                    }
+                ],
+                "releaseTime": "测试内容e667",
+                "wsCase": {
+                    "beginTime": "测试内容862b",
+                    "caseNo": "测试内容iotm",
+                    "courtName": "测试内容c076",
+                    "liveState": 1,
+                    "title": "2"
+                }
+            },
+            {
+                 "caseId":3,
+                "avgScore": 77725,
+                "raterList": [
+                    {
+                        "name": "测试内容4n1z"
+                    }
+                ],
+                "releaseTime": "测试内容e667",
+                "wsCase": {
+                    "beginTime": "测试内容862b",
+                    "caseNo": "测试内容iotm",
+                    "courtName": "测试内容c076",
+                    "liveState": 3,
+                    "title": "3"
+                }
+            },
+            {
+                 "caseId":4,
+                "avgScore": 77725,
+                "raterList": [
+                    {
+                        "name": "测试内容4n1z"
+                    }
+                ],
+                "releaseTime": "测试内容e667",
+                "wsCase": {
+                    "beginTime": "测试内容862b",
+                    "caseNo": "测试内容iotm",
+                    "courtName": "测试内容c076",
+                    "liveState": 0,
+                    "title": "4"
+                }
+            },
+            {
+                "avgScore": 77725,
+                "raterList": [
+                    {
+                        "name": "测试内容4n1z"
+                    }
+                ],
+                "releaseTime": "测试内容e667",
+                "wsCase": {
+                    "beginTime": "测试内容862b",
+                    "caseNo": "测试内容iotm",
+                    "courtName": "测试内容c076",
+                    "liveState": 1,
+                    "title": "5"
+                }
+            },
+            {
+                "avgScore": 77725,
+                "raterList": [
+                    {
+                        "name": "测试内容4n1z"
+                    }
+                ],
+                "releaseTime": "测试内容e667",
+                "wsCase": {
+                    "beginTime": "测试内容862b",
+                    "caseNo": "测试内容iotm",
+                    "courtName": "测试内容c076",
+                    "liveState": 3,
+                    "title": "6"
+                }
+            },
+            {
+                "avgScore": 77725,
+                "raterList": [
+                    {
+                        "name": "测试内容4n1z"
+                    }
+                ],
+                "releaseTime": "测试内容e667",
+                "wsCase": {
+                    "beginTime": "测试内容862b",
+                    "caseNo": "测试内容iotm",
+                    "courtName": "测试内容c076",
+                    "liveState": 1,
+                    "title": "7"
+                }
+            }
+        ],
+        "page": {
+            "pageNumber": 1,
+            "pageSize": 10,
+            "pageTotal": 10,
+            "totalCount": 100
+        }
+    }
+}

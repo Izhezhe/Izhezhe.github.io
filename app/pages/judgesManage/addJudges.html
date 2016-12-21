@@ -1,0 +1,94 @@
+<link rel="import" href="/app/pages/header/index.html?__inline">
+<div class="public-main clearfix">
+    <link rel="import" href="app/pages/left/index.html?__inline">
+    <div class="public-content right-index">
+       <div class="public-select-area">
+           <a class="goback" href="./judgesManage">返回</a>
+       	<ul>
+       		<li class="select on">
+	       		<a href="javascript:void(0);">添加评委</a>
+       		</li>
+       	</ul>
+       </div>
+       <!--end of public-select-area -->
+    <form name="agentForm" method="post" id="agentForm" > 
+    	<input type="hidden" name="id" id="judId" />
+       <div class="add-judges">
+          <div class="judges-block">
+            <span class="name"><em>*</em>姓名</span>
+            <input type="text" class="input-info" name ="name" id="judName"  placeholder="请输入数字和字母组合的姓名" />
+            <!--<span class="input-info"></span>-->
+          </div>
+          <div class="judges-block" id="logCnt">
+            <span class="name"><em>*</em>登录账号</span>
+            <input type="text" class="input-info" name ="loginname" id="loginCont" />
+          </div>
+          <div class="judges-block">
+            <span class="name"><em>*</em>职位描述</span>
+            <input type="text" class="input-info" name ="jobDesc"  id="judJob" placeholder="不要超出50字" />
+          </div>
+          <div class="judges-block">
+            <span class="name"><em></em>联系方式</span>
+            <input type="text" class="input-info" name ="phonenumber"  id="judContact"/>
+          </div>
+          <div class="judges-block">
+            <span class="name"><em></em>行业</span>
+	            <select type="text" class="input-info" name ="trade" id="judIndustry">
+	             	<option value="1">法官</option>
+                    <option value="2">律师</option>
+                    <option value="3">法律教育</option>
+                    <option value="4">其他法院机关</option>
+                    <option value="5">其他法律行业</option>
+                    <option value="6">互联网</option>
+                    <option value="7">金融/保险/银行</option>
+                    <option value="8">房地产/建筑</option>
+                    <option value="9">政府/非盈利机构</option>
+                    <option value="10">卫生/医疗</option>
+                    <option value="11">贸易/消费/制造/服务</option>
+                    <option value="12">物流/仓储</option>
+                    <option value="13">文化/广告/媒体</option>
+                    <option value="14">其他</option>
+	            </select>            	
+          </div>
+          <div class="judges-block">
+            <span class="name"><em></em>选择分组</span>
+	            <select type="text" class="input-info" name="groupId" id="judGroup">
+	              <option value="0">无分组</option>
+	            </select>
+          </div>
+          <div class="judges-block">
+            <span class="name"><em></em>个人简介</span>
+            <textarea  class="text-info" name="describe"  id="introduction" placeholder="不要超出200字"></textarea>
+          </div>
+          <div class="judges-block">
+            <span class="name"><em></em>上传头像</span>
+            <input type="hidden" name="headPic" id="intPic"/>
+            <div>
+            	<em class="up-wd">上传</em>
+            	<input type="file"  id="picUpLoad" name="" class="up-load" accept="image/x-png, image/jpeg" multiple />
+            </div>
+          </div>
+          <div class="judges-block">
+            <div class="up-load-result" style="display:none;height:44px;">
+            	<img style="width:30px;height:30px;margin-top:8px;margin-left:10px;" id="picName" alt="上传图像" src='' >
+            	<span><em id="dalePic">删除</em></span>
+            </div>
+          </div>
+          <div class="submit-area">
+            <input type="button" class="submit-button" value="完成" id="finish"/>
+          </div>
+       </div>
+       <!--end add-judges-->
+    </form>   
+
+    </div>
+</div>
+<script type="text/javascript">
+  var addJudges = require('./addJudges');
+	addJudges.init();
+   	addJudges.initUploadPic();
+ 	addJudges.addJudges();
+ 	selectMenu("nav3");
+</script>
+
+<link rel="import" href="/app/pages/footer/footer.html?__inline">

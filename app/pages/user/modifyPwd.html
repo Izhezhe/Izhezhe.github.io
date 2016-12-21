@@ -1,0 +1,30 @@
+<link rel="import" href="/app/pages/header/index.html?__inline">
+<div class="public-main clearfix">
+    <div class="public-content right-index" style="width: 100%;">
+       <div class="public-select-area">
+        <ul>
+          <li class="select on">
+            <a href="javascript:void(0);">修改密码</a>
+          </li>
+        </ul>
+       </div>
+    <div class="content_case">
+      <div class="content_top clearfix">
+            <div class="add-announce modify-pwd">
+                <form action="" onsubmit="return false;">
+
+                    <p class="clearfix"><span>初始密码</span><input type="password" placeholder="请输入您的原始密码" id="oldPwd" value=""><label class="error">请填写初始密码</label></p>
+                    <p class="clearfix"><span>新密码</span><input type="password" placeholder="请输入您的新密码" id="newPwd" value=""><label class="error">请填写新密码</label></p>
+                    <p class="clearfix"><span>确定密码</span><input type="password" placeholder="请再次您的新密码" id="surePwd" value=""><label class="error">请输入确定密码</label></p>
+                    <input type="submit" value="完成" class="input-sub">
+                </form>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
+<script>
+  var modifyPwd = require('./modifyPwd');
+  modifyPwd.init();
+</script>
+<link rel="import" href="/app/pages/footer/footer.html?__inline">

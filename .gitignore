@@ -1,1 +1,5 @@
-/.idea/*
+/output
+/components
+/.idea
+/node_modules
+

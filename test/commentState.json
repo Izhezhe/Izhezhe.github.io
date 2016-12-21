@@ -1,0 +1,41 @@
+{
+    "code": 1,
+    "data": [
+        {
+            "approveStatus": 0,
+            "id":1,
+            "comments": "这是评论",
+            "raterUser": {
+                "jobDesc": "测试内容uo44",
+                "name": "测试内容kday"
+            }
+        },
+                {
+                    "id":2,
+            "approveStatus": 1,
+            "comments": "",
+            "raterUser": {
+                "jobDesc": "测试内容uo44",
+                "name": "测试内容kday"
+            }
+        },
+                {
+                    "id":3,
+            "approveStatus": 2,
+            "comments": "这是评论3",
+            "raterUser": {
+                "jobDesc": "测试内容uo44",
+                "name": "测试内容kday"
+            }
+        },
+        {
+                    "id":4,
+            "approveStatus": 1,
+            "comments": "这是评论3",
+            "raterUser": {
+                "jobDesc": "测试内容uo44",
+                "name": "测试内容kday"
+            }
+        }
+    ]
+}

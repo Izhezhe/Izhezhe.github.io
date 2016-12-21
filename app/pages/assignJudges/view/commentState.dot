@@ -1,0 +1,33 @@
+                 <table cellpadding="0" cellspacing="0">
+                        <tr>
+                              <th>姓名</th>
+                              <th>职务描述</th>
+                              <th>点评状态</th>                             
+                              <th>审核结果</th>  
+                              <th>操作</th>                            
+                        </tr>
+                  {{~it :value:index}}
+                        <tr data-id="{{=value.id}}">
+                              <td class="name test">
+                                  {{? value.raterUser}}
+                                  {{=value.raterUser.name}}
+                                  {{?}}
+                              </td>
+                              <td class="post"><div class="ell">{{? value.raterUser}}{{=value.raterUser.jobDesc}}{{?}}</div></td>
+                             {{? value.comments==null || value.comments == ''}}
+                              <td class="">未点评</td>
+                              <td class="null"><span>-</span></td>
+                              {{??}}
+                              <td class="state" style="cursor:pointer;" temp = "{{=value.comments}}" id="{{=value.id}}">已点评</td>
+                                {{? value.approveStatus===0 }}
+                                <td class="null status"><span>待审核</span></td>
+                                {{?? value.approveStatus===1}}
+                                <td class="null status"><span>待审核</span></td>
+                                 {{?? value.approveStatus===2}}
+                                <td class="null status"><span>审核通过</span></td>
+                                {{?}}
+                                <td class="null"><span style="width:84px;" class="past comment-past">{{?value.approveStatus==2}}取消审核{{??}}审核通过{{?}}</span></td>
+                              {{?}} 
+                        </tr>
+                  {{~}}
+                  </table>

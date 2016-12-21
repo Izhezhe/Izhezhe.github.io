@@ -1,0 +1,77 @@
+{
+    "code": 1,
+    "data": {
+        "commentList": [
+            {
+                "approveStatus": 1,
+                "comments": "测试内容dbze",
+                "id": 70014,
+                "raterUser": {
+                    "jobDesc": "测试内容3crk",
+                    "name": "测试内容8k9j"
+                },
+                "wsCase": {
+                    "beginTime": "测试内容jf40",
+                    "caseNo": "测试内容9p7j",
+                    "courtName": "测试内容636m",
+                    "liveState": 1,
+                    "title": "测试内容957e"
+                }
+            },
+            {
+                "approveStatus": 2,
+                "comments": "测试内容dbze",
+                "id": 70015,
+                "raterUser": {
+                    "jobDesc": "测试内容3crk",
+                    "name": "测试内容8k9j"
+                },
+                "wsCase": {
+                    "beginTime": "测试内容jf40",
+                    "caseNo": "测试内容9p7j",
+                    "courtName": "测试内容636m",
+                    "liveState": 1,
+                    "title": "测试内容957e"
+                }
+            },
+            {
+                "approveStatus": 1,
+                "comments": "测试内容dbze",
+                "id": 70016,
+                "raterUser": {
+                    "jobDesc": "测试内容3crk",
+                    "name": "测试内容8k9j"
+                },
+                "wsCase": {
+                    "beginTime": "测试内容jf40",
+                    "caseNo": "测试内容9p7j",
+                    "courtName": "测试内容636m",
+                    "liveState": 1,
+                    "title": "测试内容957e"
+                }
+            },
+            {
+                "approveStatus": 2,
+                "comments": "测试内容dbze",
+                "id": 70017,
+                "raterUser": {
+                    "jobDesc": "测试内容3crk",
+                    "name": "测试内容8k9j"
+                },
+                "wsCase": {
+                    "beginTime": "测试内容jf40",
+                    "caseNo": "测试内容9p7j",
+                    "courtName": "测试内容636m",
+                    "liveState": 1,
+                    "title": "测试内容957e"
+                }
+            }
+        ],
+        "page": {
+            "pageNumber": 46276,
+            "pageSize": 73005,
+            "pageTotal": 38445,
+            "totalCount": 46452
+        }
+    }
+}

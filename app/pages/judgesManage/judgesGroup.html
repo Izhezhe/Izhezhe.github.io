@@ -1,0 +1,41 @@
+<link rel="import" href="/app/pages/header/index.html?__inline">
+<div class="public-main clearfix">
+    <link rel="import" href="app/pages/left/index.html?__inline">
+    <div class="public-content right-index">
+       <div class="public-select-area">
+           <span class="add"><a href="./addEditGroup" style="display: block;">创建小组</a></span>
+       	<ul>
+         		<li class="select">
+  	       		<a href="./judgesManage">评委管理</a>
+         		</li>
+            <li class="select on">
+                  <a href="./judgesGroup">评委团</a>
+            </li>
+       	</ul>
+       </div>
+       <!--end of public-select-area -->
+       <div class="judges-manage">
+            <div class="search-model">
+                 <input id="search" placeholder="请输入关键字"/>
+                 <span class="line"></span>
+                 <span class="search" onclick="activity.search()"></span>
+            </div>
+       </div>
+       <!--end judges-manage-search -->
+       <div class="public-table-area judges-group">
+       	
+       	
+       </div>
+
+       <div class="public-fanye">
+          
+        </div>
+
+    </div>
+</div>
+<script>
+var activity = require('./judgesGroup');
+activity.list();
+selectMenu("nav3");
+</script>
+<link rel="import" href="/app/pages/footer/footer.html?__inline">

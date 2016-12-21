@@ -1,0 +1,72 @@
+      	<table cellpadding="0" cellspacing="0">
+       		<tr>
+       			<th>庭审视频</th>
+       			<th>案由及案号</th>
+       			<th>审理法院</th>
+       			<th>评委</th>
+            <th>评委打分</th>
+       			<th></th>
+       			<th>操作</th>
+       		</tr>
+       	{{~it :value:index}}
+       		<tr class="tr_vedio">
+       			<td>   
+                               <a class="vedio_a" href="http://tingshen.court.gov.cn/live/{{=value.caseId}}" target="_blank">
+                                    <img src="{{?value.wsCase.videoThumbnail}}{{=value.wsCase.videoThumbnail}}{{?}}" alt="">  
+                               </a>       
+                            </td>
+       			<td class="case-name">
+                                   <div class="ell">
+                                          {{?value.wsCase.title}}{{=value.wsCase.title}}{{?}}
+                                          {{?value.wsCase.caseNo}}{{=value.wsCase.caseNo}}{{?}}
+                                   </div>
+                            </td>
+
+       			<td class="court-number">
+                                   <div class="ell">
+                                          {{?value.wsCase.courtName}}{{=value.wsCase.courtName}}{{?}}
+                                   </div>
+                            </td>
+
+
+       			<td class="pingwei">
+                                   {{? value.caseAppointList}}
+              			<span>
+                                          {{?value.caseAppointList.length>0}}
+                            			{{~value.caseAppointList:rater:index1}}
+                                                        {{? rater.name}}
+                                   			    {{=rater.name}}<br/>
+                                                        {{??}}无{{?}}
+                            			{{~}}
+                                          {{??}}无{{?}}
+              			</span>
+                                   {{??}}<span>无</span>{{?}}
+       			</td>
+
+                            {{? value.avgScore=="null"}}
+                                   <td class="pingfeng">0</td>
+                            {{??}}
+       			       <td class="pingfeng">
+                                    {{? value.avgScore > 0}}
+                                          {{=value.avgScore}}
+                                          {{??}}
+                                          未打分
+                                          {{?}}                             
+                                   
+                                   </td>
+                            {{?}}
+
+
+                            {{? value.assessmentNum =="null"}}
+                                   <td class="pingfeng"></td>
+                            {{??}}
+                                   <td class="pingfeng"></td>
+                            {{?}}
+
+
+       			<td><a href="./viewComment?id={{=value.caseId}}" class="public-button2">查看</a></td>
+       		</tr>
+ 		{{~}}
+       	</table>
+
+

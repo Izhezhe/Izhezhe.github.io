@@ -1,0 +1,58 @@
+{
+    "code": 1,
+    "data": {
+        "caseList": [
+            {
+                "beginTime": "测试内容jj8r",
+                "title":"1232222222222222222222222222222222222222222222",
+                "caseId": 1,
+                "caseNo": "测试内容b47k",
+                "courtName": "测试内容49m6",
+                "createTime": "2016-04-12 12:05",
+                "liveState": 0
+            },
+            {
+                "title":"456",
+                "beginTime": "测试内容jj8r",
+                "caseId": 2,
+                "caseNo": "测试内容测试内容测试内容测试内容测试内容测试内容测试内容测试内容测试内容测试内容",
+                "courtName": "测试内容49m6",
+                "createTime": 1,
+                "liveState": 0
+            },
+            {
+                "beginTime": "测试内容jj8r",
+                "title":"9",
+                "caseId": 3,
+                "caseNo": "测试内容b47k",
+                "courtName": "测试内容49m6",
+                "createTime": 1,
+                "liveState": 0
+            },
+            {
+                "beginTime": "测试内容jj8r",
+                "title":"7",
+                "caseId": 4,
+                "caseNo": "测试内容b47k",
+                "courtName": "测试内容49m6",
+                "createTime": 1,
+                "liveState": 0
+            },
+            {
+                "beginTime": "测试内容jj8r",
+                "title":"8",
+                "caseId": 5,
+                "caseNo": "测试内容b47k",
+                "courtName": "测试内容49m6",
+                "createTime": 1,
+                "liveState": 1
+            }
+        ],
+        "page": {
+            "pageNumber": 41218,
+            "pageSize": 17453,
+            "pageTotal": 37374,
+            "totalCount": 87205
+        }
+    }
+}

@@ -1,0 +1,54 @@
+<link rel="import" href="/app/pages/header/index.html?__inline">
+<div class="public-main clearfix">
+    <link rel="import" href="app/pages/left/index.html?__inline">
+    <div class="public-content right-index">
+       <div class="public-select-area">
+       	<ul>
+       		<li class="select on">
+	       		<a href="javascript:void(0);">指派评委</a>
+       		</li>
+       	</ul>
+       </div>
+
+       <!-- end  public-select-area-->
+       <div class="assign-judges-search">
+            <em>搜索评委</em>
+            <div class="search-input">
+                  <input id="keywords" />
+                  <span class="line"></span>
+                  <span class="search" onclick="assignJudges.search()"></span>
+            </div>
+            <a class="send-button" href="./caseRating"">返回</a>
+            <a class="send-button" id="assigngo">确定</a>
+       </div>
+       <!-- end  assign-judges-search-->
+       <div class="public-table-area assign-judges-table">
+        <div class="judgesTable">
+          
+        </div>
+       	<div class="public-fanye">
+
+       	</div>
+       </div>
+       <!-- public-table-area -->
+    </div>
+</div>   
+<script >
+ var assignJudges = require('./assignJudges');
+assignJudges.list();
+selectMenu("nav4");
+// var courtCodeIndex = getCookie('courtCode');
+// var higDownload = reqConfig.getInterface('higDownload');
+// var comDownload = reqConfig.getInterface('comDownload');
+// if (courtCodeIndex == "0") {
+//     $('#index-download>a').attr('href',higDownload);
+// }else{
+//     $('#index-download>a').attr('href',comDownload);
+// }
+
+    //  require(['./liveManage-video.js'], function(index) {
+    //     index.init(); 
+    // }); 
+
+</script>
+<link rel="import" href="/app/pages/footer/footer.html?__inline">

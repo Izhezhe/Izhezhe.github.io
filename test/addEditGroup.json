@@ -1,0 +1,47 @@
+{
+    "code": 1,
+    "data": {
+        "group": {
+            "id": 3,
+            "leaderUserId": 4,
+            "name": "测试内容3tw7"
+        },
+        "userList": [
+            {
+                "createTime": "测试内容ft63",
+                "id": 1,
+                "isSelected": 1,
+                "jobDesc": "测试内容y366",
+                "name": "测试内容5u91"
+            },
+            {
+                "createTime": "测试内容ft63",
+                "id": 2,
+                "isSelected": 1,
+                "jobDesc": "测试内容y366",
+                "name": "测试内容5u91"
+            },
+            {
+                "createTime": "测试内容ft63",
+                "id": 3,
+                "isSelected": 1,
+                "jobDesc": "测试内容y366",
+                "name": "测试内容5u91"
+            },
+            {
+                "createTime": "测试内容ft63",
+                "id": 4,
+                "isSelected": 1,
+                "jobDesc": "测试内容y366",
+                "name": "测试内容5u91"
+            },
+            {
+                "createTime": "测试内容ft63",
+                "id": 5,
+                "isSelected": 1,
+                "jobDesc": "测试内容y366",
+                "name": "测试内容5u91"
+            }
+        ]
+    }
+}

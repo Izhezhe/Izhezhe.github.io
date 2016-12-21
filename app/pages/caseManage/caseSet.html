@@ -1,0 +1,97 @@
+<link rel="import" href="/app/pages/header/index.html?__inline">
+<div class="public-main clearfix">
+    <link rel="import" href="app/pages/left/index.html?__inline">
+    <div class="public-content right-index">
+       <div class="public-select-area">
+           <a class="goback" href="./ratingCaseManage">返回</a>
+       	<ul>
+       		<li class="select on">
+	       		<a href="javascript:void(0);">案件设置</a>
+       		</li>
+       	</ul>
+       </div>
+       <!-- end public-select-area -->
+       <div class="public-mask" style="display: none;"></div>
+
+<!-- 案件选择弹框 -->
+<div class="public-box case-box" style="display: none; z-index: 10; height: 560px;">
+  <div class="head-party">选择案件<span class="close"></span></div>
+  <div class="case-area">
+      <div class="block">
+            <span class="name">案件状态</span>
+            <ul id="choseList">
+                  <li class="on" data-state='4'>全部</li>
+                  <li  data-state='1' >直播中</li>
+                  <li  data-state='3' >案件回顾</li>
+            </ul>
+      </div>
+       <div class="block">
+            <span class="name" id="">开庭时间</span>
+            <div class="time-area">
+                  <input class="time-input" id="beginTime">
+                  <span class="line"></span>
+                  <input class="time-input" id="endTime">
+            </div>
+      </div>
+       <div class="block">
+            <span class="name">案件搜索</span>
+            <div class="serach">
+                  <input placeholder="请输入关键字" id="keywords">
+                  <span class="line"></span>
+                  <span class="search"></span>
+            </div>
+      </div>
+      <div class="public-table-area">
+        <div class="caseList" style="height: 315px;">
+            
+        </div>
+            <div>
+              <div class="public-fanye">
+
+              </div>
+            </div>   
+       </div>
+
+   </div>
+</div>
+
+       <div class="case-set">
+            <div class="content">
+                  <div class="block">
+                  <input type="hidden" id="activityId"/>
+                        <span class="name"><em>*</em>选择案件</span>
+                        <span class="case-set-button" id="getAllCase">选择</span>
+                        <input type="hidden" id="caseId"/>
+                        <div class="case-name">
+                              <span id="caseName"></span>
+                        </div>
+                  </div>
+                  <div class="block">
+                        <span class="name"><em id="">*</em>参赛时间</span>
+                        <input class="case-set-time" id="caseTime" />
+                  </div>
+                   <div class="block">
+                        <span class="name">设置封面</span>
+                        <span class="case-set-button">上传</span>
+                        <input type="file" name="file" class="case-set-upload" id="picUpLoad" accept="image/x-png, image/jpeg">
+                        <input type="hidden" name="coverPic" id="coverPic">
+                        <div class="case-name" id="pic" style="height: 80px; display: none;">
+                              <img id="picName" style="height: 60px;width: 60px;margin-top:10px;"/> <span><em id="dle">&nbsp;删除</em></span>
+                        </div>
+                  </div>
+            </div>
+            <div class="right-button-area"><input type="button" class="submit-button" value="确定"/></div>
+            
+       </div>
+
+    </div>
+</div>
+<script >
+require('app/assets/libs/datePicker/timer');
+var caseSet = require('./caseSet');
+caseSet.list();
+caseSet.getCase();
+
+selectMenu("nav2");
+</script>
+<link rel="import" href="/app/pages/footer/footer.html?__inline">

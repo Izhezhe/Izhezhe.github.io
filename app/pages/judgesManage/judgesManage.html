@@ -1,0 +1,63 @@
+<link rel="import" href="/app/pages/header/index.html?__inline">
+<div class="public-main clearfix">
+    <link rel="import" href="app/pages/left/index.html?__inline">
+    <div class="public-content right-index">
+       <div class="public-select-area">
+           <span class="add"><img src="../../assets/imgs/add-ico.png" alt=""/>
+           <a href="javascript:void(0)">新增</a>
+           </span>
+       	<ul>
+       		<li class="select on">
+	       		<a href="./judgesManage">评委管理</a>
+       		</li>
+          <li class="select">
+                <a href="./judgesGroup">评委团</a>
+          </li>
+       	</ul>
+       </div>
+       <!--end of public-select-area -->
+       <div class="judges-manage">
+            <div class="search-model">
+                 <input placeholder="请输入关键字" id="in_search"/>
+                 <span class="line"></span>
+                 <span class="search" onclick="judgesManage.list()"></span>
+            </div>
+       </div>
+       <!--end judges-manage-search -->
+
+       <div class="public-table-area judges-manage">
+
+       </div>
+       	<div class="public-fanye">
+
+       	</div>
+       	
+
+    </div>
+</div>
+<script type="text/javascript">
+
+	var judgesManage = require('./judgesManage');
+	judgesManage.list();
+
+  $(document).on("click",".add",function(){
+    window.location.href="./addJudges";
+  });
+  selectMenu("nav3");
+</script>
+<link rel="import" href="/app/pages/footer/footer.html?__inline">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

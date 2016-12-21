@@ -1,0 +1,56 @@
+ <table cellpadding="0" cellspacing="0">
+   {{~it :value:index}}
+   <tr data-id="{{=value.id}}">
+     <td class="t1">
+       <div class="info">
+         <h3 class="name">{{?value.raterUser}}{{=value.raterUser.name}}{{?}}</h3>
+         <div class="past">{{?value.raterUser}}{{=value.raterUser.jobDesc}}{{?}}</div>
+         <div class="time">{{?value.createTime}}{{=format(value.createTime)}}{{?}}</div>
+       </div>
+     </td>
+     <td class="t2">
+       <div class="info">
+         <h2 class="title all_title">
+            {{?value.wsCase}}({{=value.wsCase.title}})
+               {{=value.wsCase.caseNo}}
+            {{?}} 
+            {{?value.approveStatus==2}}
+                 <span class="checkpass">审核通过</span>
+            {{??}}
+                <span class="checking">审核中</span>
+            {{?}} 
+         </h2>
+         {{?value.comments}}
+          <p class="name">{{=value.comments}}</p>
+         <span class="view-all">[查看全部]</span>
+       </div>
+     </td>
+     <td class="t3">
+        <ul>        
+          <li>
+              <span class="pass" data-status = "{{=value.approveStatus}}">
+              {{?value.approveStatus==2}}取消审核{{??}}审核通过{{?}}
+              </span>
+            </li>
+        </ul>
+     </td>
+    {{??}}
+        <p class="name"></p>
+         <span class="view-all"></span>
+       </div>
+     </td>
+     <td class="t3">
+        <ul>        
+          <li>
+              <span class="pass" data-status = "{{=value.approveStatus}}">
+              </span>
+            </li>
+        </ul>
+     </td>
+    {{?}} 
+
+
+
+   </tr>
+   {{~}}
+ </table>

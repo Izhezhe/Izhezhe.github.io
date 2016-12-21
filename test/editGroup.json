@@ -1,0 +1,45 @@
+{
+  "code": 1,
+  "data": {
+    "setGroupList": [
+      {
+        "id":"1",
+        "name":"2e",
+        "jobDesc":"daeidje",
+        "time":"",
+        "status1":"on",
+        "status2":""
+      },
+      {
+        "id":"2",
+        "name":"2e",
+        "jobDesc":"daeidje",
+        "time":"",
+        "status1":"on",
+        "status2":""
+      },
+      {
+        "id":"5",
+        "name":"2e",
+        "jobDesc":"daeidje",
+        "time":"",
+        "status1":"on",
+        "status2":""
+      },
+      {
+        "id":"4",
+        "name":"2e",
+        "jobDesc":"daeidje",
+        "time":"",
+        "status1":"on",
+        "status2":"on"
+      }
+    ],
+    "page": {
+      "pageNumber": 1,
+      "pageSize": 8,
+      "pageTotal": 20,
+      "totalCount": 10
+    }
+  }
+}

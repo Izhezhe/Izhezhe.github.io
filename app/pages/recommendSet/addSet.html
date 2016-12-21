@@ -1,0 +1,121 @@
+<link rel="import" href="/app/pages/header/index.html?__inline">
+<div class="public-main clearfix">
+    <link rel="import" href="app/pages/left/index.html?__inline">
+    <div class="public-content right-index">
+       <div class="public-select-area">
+          <a class="goback" href="./recommendSet">返回</a>
+       	<ul>
+       		<li class="select on">
+	       		<a href="javascript:void(0);">添加设置</a>
+       		</li>
+       	</ul>
+       </div>
+       <!-- end  public-select-area-->
+       <div class="add-set-page">
+          <div class="block">
+              <span class="name">参评时间</span>
+              <input  class="case-set-time" id = "case-set-time" />
+          </div>
+          <div class="block">
+              <span class="name">推荐位_1</span>
+              <span class="case-set-button 1">选择</span>
+              <div class="select-result" style="display: none;">
+                <span class="case_id first active" dataid=""><span class="case_name"></span><span class="case_no"></span>
+                <em class="delete">&nbsp;&nbsp;&nbsp;&nbsp;删除</em></span>
+              </div>
+          </div>
+          <div class="block">
+              <span class="name">推荐位_2</span>
+              <span class="case-set-button 2">选择</span>
+              <div class="select-result" style="display: none;">
+                <span class="case_id second" dataid=""><span class="case_name"></span><span class="case_no"></span>
+                <em class="delete">&nbsp;&nbsp;&nbsp;&nbsp;删除</em></span>
+              </div>
+          </div>
+          <div class="block">
+              <span class="name">推荐位_3</span>
+              <span class="case-set-button 3">选择</span>
+              <div class="select-result" style="display: none;">
+                <span class="case_id third" dataid=""><span class="case_name"></span><span class="case_no"></span>
+                <em class="delete">&nbsp;&nbsp;&nbsp;&nbsp;删除</em></span>
+              </div>
+          </div>
+          <div class="block">
+              <span class="name">推荐位_4</span>
+              <span class="case-set-button 4">选择</span>
+              <div class="select-result" style="display: none;">
+                <span class="case_id fourth" dataid=""><span class="case_name"></span><span class="case_no"></span>
+                <em class="delete">&nbsp;&nbsp;&nbsp;&nbsp;删除</em></span>
+              </div>
+          </div>
+          <div class="block">
+              <span class="name">推荐位_5</span>
+              <span class="case-set-button 5">选择</span>
+              <div class="select-result" style="display: none;">
+                <span class="case_id fifth" dataid=""><span class="case_name"></span><span class="case_no"></span>
+                <em class="delete">&nbsp;&nbsp;&nbsp;&nbsp;删除</em></span>
+              </div>
+          </div>
+          <div class="submit-area"><input type="button"  value="提交" id="commit" /></div>
+       </div>
+       <!-- end add-set-page-->
+       
+    </div>
+</div>
+
+
+<!-- 以下为弹窗 -->
+<div class="public-mask" style="display:none"></div>
+<div class="public-box case-box" style="display: none">
+  <div class="head-party">选择案件<span class="close"></span></div>
+  <div class="case-area">
+      <!--<div class="block">
+            <span class="name">案件状态</span>
+            <ul>
+                  <li class="on">全部</li>
+                  <li>直播中</li>
+                  <li>案件回顾</li>
+            </ul>
+      </div> -->
+       <div class="block">
+            <span class="name">参评时间</span>
+            <div class="time-area">
+                  <input class="time-input" id="startTime">
+                  <span class="line"></span>
+                  <input class="time-input" id="endTime">
+                  <input type="button" value="查询" style='height: 30px; line-height: 30px; width: 60px; text-align: center;margin-left: 20px;color:#313131;cursor: pointer;border-radius: 3px;' onclick="addSet.ajaxData()" />
+            </div>
+      </div>
+       <div class="block">
+            <span class="name">案件搜索</span>
+            <div class="serach">
+                  <input class="inputkeys" placeholder="请输入关键字">
+                  <span class="line"></span>
+                  <span class="search" id="case-search"></span>
+            </div>
+      </div>
+      <div class="public-table-area" >
+        <div id="container">
+            
+        </div>
+        <div class="public-fanye">
+            
+        </div>   
+       </div>
+   </div>
+</div>
+
+<script type="text/javascript">
+      var addSet = require('./addSet');
+      selectMenu("nav7");
+      addSet.init();
+      addSet.deleteControl();
+      addSet.selectList();
+      addSet.save();
+</script>
+
+
+
+<link rel="import" href="/app/pages/footer/footer.html?__inline">
+
+

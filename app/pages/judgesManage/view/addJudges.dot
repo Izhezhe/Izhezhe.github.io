@@ -1,0 +1,55 @@
+       <div class="add-judges">
+          <div class="judges-block">
+            <span class="name"><em>*</em>姓名</span>
+            <input type="text" class="input-info" name = "judName" id="judName" />
+          </div>
+          <div class="judges-block">
+            <span class="name"><em>*</em>职位描述</span>
+            <input type="text" class="input-info" name = "judJob"  id="judJob"/>
+          </div>
+          <div class="judges-block">
+            <span class="name"><em>*</em>联系方式</span>
+            <input type="text" class="input-info" name = "judContact"  id="judContact"/>
+          </div>
+          <div class="judges-block">
+            <span class="name"><em>*</em>行业</span>
+	            <select type="text" class="input-info" name = "judIndustry" id="judIndustry">
+	             	<option value="1" selected="selected">法官</option>
+                    <option value="2">律师</option>
+                    <option value="3">法律教育</option>
+                    <option value="4">其他法院机关</option>
+                    <option value="5">其他法律行业</option>
+                    <option value="6">互联网</option>
+                    <option value="7">金融/保险/银行</option>
+                    <option value="8">房地产/建筑</option>
+                    <option value="9">政府/非盈利机构</option>
+                    <option value="10">卫生/医疗</option>
+                    <option value="11">贸易/消费/制造/服务</option>
+                    <option value="12">物流/仓储</option>
+                    <option value="13">文化/广告/媒体</option>
+                    <option value="14">其他</option>
+	            </select>            	
+          </div>
+          <div class="judges-block">
+            <span class="name"><em>*</em>选择分组</span>
+	            <select type="text" class="input-info" name="judGroup" id="judGroup">
+	              <!--<option value="1">1</option>-->
+	            </select>
+          </div>
+          <div class="judges-block">
+            <span class="name"><em>*</em>个人简介</span>
+            <textarea  class="text-info" name="introduction"  id="introduction"></textarea>
+          </div>
+          <div class="judges-block">
+            <span class="name"><em>*</em>上传头像</span>
+            <div><em class="up-wd">上传</em><input type="file" name="file" class="up-load" accept="image/x-png, image/jpeg"/></div>
+          </div>
+          <div class="judges-block">
+            <div class="up-load-result"><span>文件名.png<em>删除</em></span></div>
+          </div>
+          <div class="submit-area">
+            <input type="button" class="submit-button" value="完成" id="finish"/>
+          </div>
+       </div>
+
+

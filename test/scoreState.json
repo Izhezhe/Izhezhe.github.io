@@ -1,0 +1,23 @@
+{
+    "code": 1,
+    "data": [
+        {
+            "jobDesc": "测试内容ean9",
+            "name": "王猛",
+            "scoreReason": "33333",
+            "totalScore": 20
+        },
+        {
+            "jobDesc": "测试内容ean9",
+            "name": "王猛",
+            "scoreReason": "111",
+            "totalScore": 20
+        },
+        {
+            "jobDesc": "测试内容ean9",
+            "name": "王猛",
+            "scoreReason": "222",
+            "totalScore": 20
+        }
+    ]
+}

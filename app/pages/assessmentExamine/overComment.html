@@ -1,0 +1,61 @@
+<link rel="import" href="/app/pages/header/index.html?__inline">
+<div class="public-main clearfix">
+    <link rel="import" href="app/pages/left/index.html?__inline">
+    <div class="public-content right-index">
+       <div class="public-select-area">
+        <ul>
+          <li class="select">
+            <a href="./allComment">全部</a>
+          </li>
+          <li class="select">
+            <a href="./waitComment">待审核</a>
+          </li>
+          <li class="select on">
+            <a href="./overComment">已通过</a>
+          </li>
+        </ul>
+       </div>
+       <!-- end  public-select-area-->
+       <div class="assessment-examine">
+           <div class="search-area">
+             <div class="search-model"><input placeholder="请输入关键字" id="search"><span class="line"></span><span class="search" onclick="overComment.search()"></span></div>
+           </div>
+           <div class="content" id="content">
+             <h1 class="search-reasult">共有<span id="search-count">0</span>条点评</h1>
+                <div id="container">
+                
+                </div>
+           </div>
+           <div class="public-fanye">
+
+          </div>
+        </div>
+         <!-- end -->
+    </div>
+</div>
+
+
+<div class="public-mask" style="display: none"></div>
+<div class="public-box" style="display: none">
+    <div class="head-party">点评<span class="close" id="_close_box"></span></div>
+    <div class="content-party">
+                
+    </div>
+    <div class="footer-party">
+   <!--    <span class="past pass">审核通过</span> -->
+      <span class="close" id="_close_button">关闭</span>
+    </div>  
+</div>
+
+
+   
+<script type="text/javascript">
+      var overComment = require('./overComment');
+      overComment.list();
+      overComment.closeBox(); 
+      overComment.view();
+      overComment.calcel();
+      overComment.pass();
+      selectMenu("nav5");
+</script>
+<link rel="import" href="/app/pages/footer/footer.html?__inline">

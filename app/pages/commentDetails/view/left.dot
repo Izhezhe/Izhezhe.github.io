@@ -1,0 +1,28 @@
+<!-- 案件信息-->
+
+<span class="info_span dib">案件信息</span>
+<div class="vedio">
+	<iframe src="http://player.videoincloud.com/{{?it.wsCase.videoId}}vod/{{=it.wsCase.videoId}}{{??}}live/{{=it.wsCase.liveId}}{{?}}?src=gkw" width="100%"
+	frameborder="0" height="100%" scrolling="no">
+	</iframe>
+</div>
+<span  class="base_span dib" >基本信息</span>
+<div class="case_info">
+	<p>
+		<span class="prev dib">案号</span>			
+		<span id="case_name" class="next">{{? it.wsCase.caseNo}}{{=it.wsCase.caseNo}}{{?}}</span>
+	</p>
+	<p>
+		<span class="prev dib">案由</span>
+		<span id="case_cause" class="next ell" >{{? it.wsCase.title}}{{=it.wsCase.title}}{{?}}</span>
+	</p>
+	<p>
+		<span class="prev dib">开庭时间</span>
+		<span id="case_time" class="next">{{? it.wsCase.beginTime}}{{=format(it.wsCase.beginTime)}}{{?}}</span>
+	</p>
+	<p>
+		<span class="prev dib">庭审地点</span>
+		<span id="court_name" class="next">{{? it.wsCase.courtName}}{{=it.wsCase.courtName}}{{?}}</span>
+	</p>
+</div>
+<a href="http://tingshen.court.gov.cn/live/{{=it.caseId}}" target="_blank" class="all">查看全部></a>

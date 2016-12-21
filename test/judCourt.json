@@ -1,0 +1,20 @@
+{
+    "code": 0,
+    "data": {
+        "activityCourt": 
+        	[
+        	 {
+	            "caseCount": 88317,
+	            "courtCode": "123123",
+	            "courtName": "北京市第二中级人民法院",
+	            "provinceName": "北京市"
+        	}
+        ],
+        "page": {
+            "pageNumber": 70546,
+            "pageSize": 38571,
+            "pageTotal": 82410,
+            "totalCount": 84811
+        }
+    }
+}

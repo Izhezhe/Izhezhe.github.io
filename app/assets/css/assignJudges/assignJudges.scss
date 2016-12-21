@@ -1,0 +1,243 @@
+/*案件评比管理*/
+.case-rating{
+	padding:15px 0px 0px 20px;
+	.block{
+		height:30px;
+		margin-bottom: 15px;
+		padding-left: 64px;
+		.name{
+			float:left;
+			margin-left: -64px;
+			line-height: 30px;
+		}
+		>ul{
+			li{
+				float: left;
+				padding:0px 15px;
+				line-height:28px;
+				border:1px solid #e5e5e5;
+				cursor: pointer;
+				margin-right:10px;
+				&.on{
+					border-color:#de5d5d;
+					color:#be4242;
+				}
+			}
+		}
+		.time-area{
+			.time-input{
+				cursor: pointer;
+				float: left;
+				width:113px;
+				text-indent:10px;
+				height:28px;
+				line-height: 28px;
+				padding:0px 23px 0px 0px;
+				border:1px solid #e5e5e5;
+				@include border-radius(3px);
+				box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1) inset;
+				background:url(../../assets/imgs/time-ico.png) no-repeat 118px center; 
+			}
+			.line{
+				float: left;
+				height: 1px;
+				width: 13px;
+				background-color:#e5e5e5;
+				margin:14px 6px 0px;
+			}
+		}
+		.serach{
+			@extend .public-search-area;
+		}
+	}
+}
+.public-table-area{
+	&.case-rating-table{
+		padding-top:0px;
+		tr{
+			td{
+				&.case-name{
+					width: 130px;
+					div{
+						width:130px;
+					}
+				}
+				&.control{
+					font-size: 0px;
+					a{
+						margin:0px 4px;
+						@extend .public-button2;
+					}
+				}
+				&.assign{
+					>ul{
+						width:168px;
+						padding:0px 10px;
+						border-left:1px solid #f1f1f1;
+						border-right:1px solid #f1f1f1;
+						margin:15px auto;
+						li{
+							height: 40px;
+							line-height: 40px;
+							border-bottom:1px solid #f1f1f1;
+							.left{
+								float: left;
+							}
+							.right{
+								float: right;
+							}
+							&.last{
+								border:none;
+							}
+						}
+					}
+				}
+				&.state{
+					width: 98px;
+				}
+				&.court-name{
+					width: 178px;
+					div{
+						width: 178px;
+					}
+				}
+				&.case-number{
+					width: 84px;
+					div{
+						width: 84px;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+/*指派评委*/
+.assign-judges-search{
+ 	padding:14px 20px;
+ 	height: 30px;
+ 	line-height: 30px;
+ 	border-bottom:1px solid #f1f1f1;
+ 	.search-input{
+ 		display: inline-block;
+ 		vertical-align: middle;
+ 		margin-left: 4px;
+ 		@extend .public-search-area;
+ 	}
+ 	.send-button{
+ 		@extend .public-button1;
+ 		margin-left:10px;
+ 		float: right;
+ 		background-color: #ffffff;
+ 		vertical-align: middle;
+ 		margin-top:4px;
+ 	} 
+}
+.public-table-area{
+	&.assign-judges-table{
+		tr{
+			td{
+				&.post{
+					width: 248px;
+					div{
+						width:248px;
+					}
+				}
+				&.check{
+					span{
+						display: inline-block;
+						width: 16px;
+						height: 16px;
+						border:1px solid #cccccc;
+						box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1) inset;
+						@include border-radius(3px);
+						margin-right: 6px;
+						vertical-align:-4px;
+						cursor: pointer;
+						&.on{
+							background:url(../../assets/imgs/check.png) no-repeat center center;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+/* 查看参评案件 */
+.view-comment-case{
+	padding:20px 0px 0px 20px;
+	.block{
+		height: 26px;
+		line-height: 26px;
+		margin-bottom: 18px;
+		color: #868686;
+		padding-left:64px;
+		font-size: 0px;
+		span{
+			font-size: 12px;
+		}
+		.name{
+			float: left;
+			width:60px;
+			text-align: right;
+			margin-left:-64px;
+			color: #313131;
+		}
+		.view{
+			@extend .public-button2;
+			width: 66px;
+			margin-left: 10px;
+		}
+	}
+	border-bottom:1px solid #f1f1f1; 
+}
+.view-comment-main{
+	padding-bottom:110px;
+	.title{
+		line-height:20px;
+		margin:9px 0px 12px 20px;
+		font-size:14px;
+	}
+}
+.public-table-area{
+	&.view-comment-table{
+		padding:0px;
+		margin-left:20px;
+		width: 785px;
+		border:1px solid #e5e5e5;
+		tr{
+			td{
+				height: 50px;
+				line-height: 50px;
+				border:0px;
+				&.name{
+					width: 114px;
+				}
+				&.post{
+					width:237px;
+					div{
+						width:237px;
+					}
+				}
+				&.state{
+					width:135px;
+					color:#F0534D;
+					cursor: pointer;
+				}
+				&.stroe{
+					width:129px;
+				}
+				&.null{
+					.past-score{
+						@extend .public-button2;
+						width: 88px;
+					}
+					.past{
+						@extend .public-button2;
+					}
+				}
+			}
+		}
+	}
+}

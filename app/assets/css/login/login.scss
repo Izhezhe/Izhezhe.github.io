@@ -1,0 +1,186 @@
+/*登录页面样式*/
+//登录
+.c-log-index {
+  width: 100%;
+  border-top: 2px solid #be4242;
+  min-height: 100%;
+  height: auto !important;
+  .log-index-content {
+    width: 850px;
+    height: 338px;
+    margin: 125px auto 0;
+    img {
+      float: left;
+      margin: 60px 0 0 10px;
+      display: inline;
+    }
+    .log-form {
+      float: right;
+      background-color: #fffefd;
+
+      width: 300px;
+      height:auto;
+      border-top: 2px solid #be4242;
+      h2 {
+        height: 37px;
+        border-bottom: 1px solid #f4f4f4;
+        line-height: 37px;
+        margin-bottom: 25px;
+        span {
+         float: left;
+          padding: 0 20px;
+          display: inline;
+          color: #be4242;
+          font: {
+            weight: bold;
+            size: 16px;
+          }
+
+        }
+        a {
+          float:right;
+          padding: 0 20px;
+          color: #313131;
+          font-size: 12px;
+
+        }
+
+      }
+      form {
+        width: 250px;
+        margin:0px auto;
+        input {
+          @include border-radius(3px);
+          height: 42px;
+          line-height: 40px;
+          width: 250px;
+          border: 1px solid #cccccc;
+          text-indent: 30px;
+          color: #868686;
+
+        }
+        .log-num {
+          background: #ffffff url(../../assets/imgs/login-2.png) no-repeat 9px center;
+          margin-bottom: 19px;
+        }
+        .log-pwd {
+          background: #ffffff url(../../assets/imgs/login-1.png) no-repeat 9px center;
+        }
+        label {
+          height: 35px;
+          width: 100px;
+          line-height: 35px;
+          text-indent: 0px;
+          color: #313131;
+          font-size: 12px;
+          float: left;
+          input {
+            height: auto;
+            width: auto;
+            margin: 11px 5px 0 3px;
+            float: left;
+          }
+        }
+        a.for-pwd {
+          float:right;
+          display: block;
+          height: 35px;
+          line-height: 35px;
+          color: #868686;
+        }
+        .submit {
+          border: none;
+          background-color: #de5d5d;
+          text-indent: 0;
+          color: #ffffff;
+          font-size: 16px;
+          clear: both;
+          cursor: pointer;
+          margin:20px 0px 29px;
+        }
+      }
+      h6, p {
+
+        width: 270px;
+        display: block;
+        margin:0px;
+      }
+      h6 {
+        font-size: 12px;
+        color: #868686;
+        height: 30px;
+        line-height: 30px;
+        margin-top: 5px;
+        font-weight: normal;
+      }
+      //登录验证模块
+      .verif{
+        display:none;
+        height: 36px;
+        margin-top: 20px;
+        font-size: 0px;
+        position:relative;
+        left: 0px;
+        top:0px;
+         input{
+           vertical-align: top;
+           display: inline-block;
+           text-indent: 0px;
+           width: 101px;
+           height:36px;
+           font-size: 14px;
+           padding-left:11px;
+           border:1px solid #cccccc;
+           border-radius:3px;
+           margin-right: 3px;
+           box-shadow:0px 2px 0px 0px #f4f4f4 inset; 
+         }
+         .verifcode{
+            vertical-align: top;
+            display: inline-block;
+            width: 83px;
+            height: 36px;
+            cursor: pointer;
+            margin-right: 1px;
+         }
+        .verifcode img{
+          width: 83px;
+          height: 36px;
+          margin: 0px;
+        }
+
+         .refresh{
+            margin-top: 3px;
+            display: inline-block;
+            cursor: pointer;
+            color: #868686;
+            font-size:12px;
+            line-height: 16px;
+            background: url(/app/assets/imgs/yzm.png) no-repeat left bottom;
+         }
+      }      
+    }
+
+  }
+}
+
+//登录底部
+.c-log-footer {
+  width: 100%;
+  background-color: #ffffff;
+  height: 50px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  p {
+    width: 850px;
+    text-align: center;
+    vertical-align: middle;
+    color: #898989;
+    font-size: 12px;
+    margin:0px auto;
+    padding: 19px 0;
+
+  }
+}
+

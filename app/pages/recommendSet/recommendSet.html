@@ -1,0 +1,38 @@
+<link rel="import" href="/app/pages/header/index.html?__inline">
+<div class="public-main clearfix">
+    <link rel="import" href="app/pages/left/index.html?__inline">
+    <div class="public-content right-index">
+       <div class="public-select-area">
+        <span class="add"><img src="../../assets/imgs/add-ico.png" alt=""><a href="./addSet">新增</a></span>
+       	<ul>
+       		<li class="select on">
+	       		<a href="javascript:void(0);">推荐设置</a>
+       		</li>
+       	</ul>
+       </div>
+       <!-- end  public-select-area-->
+       <div class="recommend-set">
+           <div class="set-time">
+             日期
+             <select name="" id="recomment-set-date">
+             </select>
+           </div>
+           <div class="public-table-area recommend-set" id="recommend-set">
+             
+           </div>
+        </div>
+         <!-- end -->
+    </div>
+</div>
+<link rel="import" href="/app/pages/footer/footer.html?__inline">
+<script type="text/javascript">
+  require(['./recommendSet.js'],function(app){
+    var app=new app();
+   
+    app.recommendSetDate();
+    app.recommendSet();
+    app.init();
+    selectMenu("nav7");
+  });
+</script>
+

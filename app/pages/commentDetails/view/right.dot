@@ -1,0 +1,89 @@
+
+				<!-- 案件打分-->
+				<div class="title">
+					<div class="markL fl">案件打分</div>	
+					<div class="mark fr">总分<span style="">100</span></div>						
+
+				</div>
+				<div id="div_score_value" class="comment_score">
+					<div class="content_score" id="content_score">
+						<div id="content_scroll" style="padding-bottom: 20px;">
+							{{~it : value:index}}
+							{{? value.id < 5}}
+							<div>
+								<div class="score_tit bg_red">        
+									<span id="group_{{=value.id}}" class="score_span big">{{=value.relTotalScore}}</span><span class="score_span small">/分</span> 
+									<span class="ready">{{=value.groupName}}<span class="color86">(总分{{=value.totalScore}}分)</span></span>
+									<i class="icon_Trigle icon_up"></i>
+								</div>
+								<ul class="score_list" style="display:none;">
+									{{~value.wsActivityScoreItem : value2:index2}}
+									<li>
+										<div class="decsdiv">
+											<p class="title_p">
+												{{=value2.scoreName}}
+											</p>
+											{{? value2.scoreValue == 5}}
+											<p class="level High">
+												<span class="score">{{=value2.scoreValue}}分</span>
+												<span class="line"></span><span>非常好</span>
+											</p>
+											{{?? value2.scoreValue == 4}}
+											<p class="level High">
+												<span class="score">{{=value2.scoreValue}}分</span>
+												<span class="line"></span><span>好</span>
+											</p>
+											{{?? value2.scoreValue == 3}}
+											<p class="level High">
+												<span class="score">{{=value2.scoreValue}}分</span>
+												<span class="line"></span><span>合格</span>
+											</p>
+											{{?? value2.scoreValue == 2}}
+											<p class="level Low">
+												<span class="score">{{=value2.scoreValue}}分</span>
+												<span class="line"></span><span>差</span>
+											</p>
+											{{??}}
+											<p class="level Low">
+												<span class="score">{{=value2.scoreValue}}分</span>
+												<span class="line"></span><span>非常差</span>
+											</p>
+											{{?}}
+
+											</div>
+											<div class="score_cause">
+												<span>打分理由:</span>
+												 {{=value2.scoreReason}}
+											</div>
+									</li>	
+									{{~}}														
+								</ul>
+							</div>
+							{{?? value.id === 5}}	
+							{{~value.wsActivityScoreItem : value2:index2}}	
+							{{? value2.scoreValue || value2.scoreValue ===0}}						
+							<div>
+								<div class="score_tit bg_red">    
+									<span id="group_{{=value.id}}" class="score_span small"   style="width: 80px; display: inline-block;text-align: center;">{{=value2.scoreName}}</span> 
+									<span class="ready">{{=value.groupName}}<span class="color86"></span></span>
+									<i class="icon_Trigle icon_up"></i>
+								</div>
+								
+								<ul class="score_list" style="display:none;">								
+									<li>
+										<div class="score_cause">
+											<span>打分理由:</span>
+											 {{=value2.scoreReason}}
+										</div>
+									</li>																				
+								</ul>
+								
+						    </div>
+						    {{?}}	
+						    {{~}}	
+							{{?}}
+							{{~}}								
+						</div>	
+					</div>	
+		
+				</div>

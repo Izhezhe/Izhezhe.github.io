@@ -1,0 +1,38 @@
+//基础样式
+@import "base";
+// 公共样式
+@import "public";
+//登录页面样式
+@import "login/login";
+
+//首页样式
+@import "home/home";
+
+//活动总预览
+@import "activityView/activityView";
+
+//活动总预览
+@import "judgesManage/judgesManage";
+
+
+//指派评委栏目
+@import "assignJudges/assignJudges";
+
+//案件管理栏目
+@import "caseManage/caseManage";
+
+//评估审核
+@import "assessmentExamine/assessmentExamine";
+
+//推荐设置
+@import "recommendSet/recommendSet";
+
+//loading加载页面的样式
+@import "showloading/showLoading";
+
+
+//修改密码页面
+@import "user/user";
+
+//评价页面
+@import "showCon/showCon";

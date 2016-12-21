@@ -1,0 +1,82 @@
+{
+    "code": 1,
+    "data": {
+        "activityList": [
+            {
+                "avgScore": 81378,
+                "assessmentNum":10,
+                "caseAppointList": [
+                    {
+                        "isComment": 1,
+                        "name": "测试内容llmo",
+                        "totalScore": 1
+                    }
+                ],
+                "caseId": 62872,
+                "id": 62071,
+                "releaseTime": "测试内容dhxm",
+                "wsCase": {
+                    "videoThumbnail":"../app/assets/imgs/vedio.png",
+                    "beginTime": "测试内容6085",
+                    "caseId": 65461,
+                    "caseNo": "测试内容6611",
+                    "courtName": "测试内容2275",
+                    "liveState": 1,
+                    "title": "测试内容gt5c"
+                }
+            },
+            {
+                "avgScore": 81378,
+                "assessmentNum":10,
+                "caseAppointList": [
+                    {
+                        "isComment": 1,
+                        "name": "测试内容llmo",
+                        "totalScore": 1
+                    }
+                ],
+                "caseId": 62872,
+                "id": 62071,
+                "releaseTime": "测试内容dhxm",
+                "wsCase": {
+                    "videoThumbnail":"../app/assets/imgs/vedio.png",
+                    "beginTime": "测试内容6085",
+                    "caseId": 65461,
+                    "caseNo": "测试内容6611",
+                    "courtName": "测试内容2275",
+                    "liveState": 1,
+                    "title": "测试内容gt5c"
+                }
+            },
+            {
+                "avgScore": 81378,
+                "assessmentNum":10,
+                "caseAppointList": [
+                    {
+                        "isComment": 1,
+                        "name": "测试内容llmo",
+                        "totalScore": 1
+                    }
+                ],
+                "caseId": 62872,
+                "id": 62071,
+                "releaseTime": "测试内容dhxm",
+                "wsCase": {
+                    "videoThumbnail":"../app/assets/imgs/vedio.png",
+                    "beginTime": "测试内容6085",
+                    "caseId": 65461,
+                    "caseNo": "测试内容6611",
+                    "courtName": "测试内容2275",
+                    "liveState": 1,
+                    "title": "测试内容gt5c"
+                }
+            }
+        ],
+        "page": {
+            "pageNumber": 76026,
+            "pageSize": 86518,
+            "pageTotal": 56863,
+            "totalCount": 57731
+        }
+    }
+}
